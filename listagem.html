@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anúncio do Piano</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body { background: #f4f4f4; color: #222; }
+
+    /* NAV */
+    .nav {
+      background: #1e1e2f;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .search-box input {
+      padding: 8px;
+      border-radius: 6px;
+      border: none;
+      width: 250px;
+    }
+
+    /* CONTAINER */
+    .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+
+    /* BREADCRUMB */
+    .breadcrumb { font-size: 14px; margin-bottom: 15px; color: #777; }
+
+    /* CARD */
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    /* IMAGENS */
+    .images img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    /* TITLE */
+    .title { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+
+    .badge {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: white;
+    }
+
+    .ouro { background: gold; color: black; }
+    .prata { background: silver; }
+    .bronze { background: #cd7f32; }
+
+    /* PREÇO */
+    .price { font-size: 26px; font-weight: bold; margin: 10px 0; }
+    .installments { color: #555; }
+
+    /* TABELA */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table td {
+      border-bottom: 1px solid #eee;
+      padding: 8px;
+    }
+
+    /* AVALIAÇÕES */
+    .review {
+      border-top: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    .review strong { display: block; }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <div class="nav">
+    <h2>PianoHost</h2>
+    <div class="search-box">
+      <input type="text" placeholder="Buscar pianos...">
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb">Home > Pianos > Yamaha > Piano Vertical</div>
+
+    <!-- IMAGENS -->
+    <div class="card images">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.DRZXEdAnSH9xk3aT5IyhrgHaFc?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Piano">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.LKnXXk_Dvq6NfaSECUN2ewHaE6?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Piano">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.vHOKlIsu673YdRpe4YqJdQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Piano">
+    </div>
+
+    <!-- TITULO + SELO -->
+    <div class="card">
+      <div class="title">
+        <h1>Piano Acústico Yamaha U3</h1>
+        <span class="badge ouro">Selo Ouro</span>
+      </div>
+
+      <div class="price">R$ 18.000</div>
+      <div class="installments">ou 12x de R$ 1.500</div>
+    </div>
+
+    <!-- DESCRIÇÃO + MEDIDAS -->
+    <div class="card">
+      <h2>Descrição</h2>
+      <p>Piano em excelente estado, revisado recentemente. Ideal para estudos avançados e apresentações.</p>
+
+      <h2>Medidas</h2>
+      <table>
+        <tr><td>Altura</td><td>131 cm</td></tr>
+        <tr><td>Largura</td><td>153 cm</td></tr>
+        <tr><td>Profundidade</td><td>65 cm</td></tr>
+        <tr><td>Peso</td><td>235 kg</td></tr>
+      </table>
+    </div>
+
+    <!-- AVALIAÇÕES -->
+    <div class="card">
+      <h2>Avaliações</h2>
+
+      <div class="review">
+        <strong>João Silva</strong>
+        <p>Ótimo piano, exatamente como descrito!</p>
+      </div>
+
+      <div class="review">
+        <strong>Maria Souza</strong>
+        <p>Entrega rápida e instrumento muito bem conservado.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
