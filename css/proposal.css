@@ -1,0 +1,113 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+header {
+    background: #111;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* HERO */
+.small-hero {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* FORM SECTION */
+.form-section {
+    padding: 50px 0;
+}
+
+/* FORM */
+.proposal-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.proposal-form h3 {
+    margin: 20px 0 10px;
+}
+
+/* INPUTS */
+.proposal-form input,
+.proposal-form select,
+.proposal-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* TEXTAREA */
+.proposal-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* LABEL */
+.proposal-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* BUTTON */
+.proposal-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #c89b3c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.proposal-form button:hover {
+    background: #a87f2f;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
