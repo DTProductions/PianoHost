@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piano Host</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>PianoHost - Compra e Venda de Pianos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🎹 PianoHost</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pianos.html">Nossos Pianos</a></li>
+                <li><a href="selos.html">Sistema de Selos</a></li>
+                <li><a href="vender.html">Vender seu Piano</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <header>
-        <h1>Piano Host</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="colecao.html">Pianos</a>
-            <a href="proposal.html">Sell Your Piano</a>
-            <a href="#">Contact</a>
-        </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo ao PianoHost</h2>
+            <p>Sua plataforma de confiança para compra e venda de pianos usados</p>
+            <div class="hero-buttons">
+                <a href="pianos.html" class="btn btn-primary">Ver Pianos Disponíveis</a>
+                <a href="vender.html" class="btn btn-secondary">Vender seu Piano</a>
+            </div>
+        </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Find Your Perfect Piano</h2>
-            <p>Quality used pianos at affordable prices.</p>
-            <a href="colecao.html">
-                <button>Browse Pianos</button>
-            </a>
-            
-        </div>
-    </section>
+    <main class="container">
+        <section class="features">
+            <div class="feature-card">
+                <h3>🏆 Certificação de Qualidade</h3>
+                <p>Cada piano é cuidadosamente verificado pela nossa equipe e certificado com nosso sistema de selos de qualidade.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✓ Transparência Total</h3>
+                <p>Fornecemos fotos, vídeos e documentação detalhada de cada instrumento.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎹 Curadoria Especializada</h3>
+                <p>Adquirimos pianos diretamente de proprietários, realizamos uma seleção criteriosa e disponibilizamos instrumentos de qualidade para venda.</p>
+            </div>
+        </section>
 
-    <section class="featured">
-        <h2>Featured Pianos</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Yamaha U3</h3>
-                <p>Excellent condition, warm sound.</p>
-            </div>
-            <div class="card">
-                <h3>Kawai K-300</h3>
-                <p>Perfect for students and professionals.</p>
-            </div>
-            <div class="card">
-                <h3>Steinway Model M</h3>
-                <p>Classic grand piano, fully restored.</p>
-            </div>
-        </div>
-    </section>
+        <section class="about">
+            <h2>Sobre Nossos Selos</h2>
+            <p>
+                No PianoHost, utilizamos um sistema inovador de selos para garantir a qualidade e transparência 
+                de cada instrumento. Esses selos representam o grau de conservação do instrumento anunciado, indo de bronze a ouro.
+            </p>
+            <p>
+                Além dos selos, fornecemos documentação detalhada do estado do piano, incluindo desde fotos detalhadas do exterior até vídeos demonstrando o funcionamento do piano.
+            </p>
+            <a href="selos.html" class="btn btn-outline">Saiba mais sobre os selos</a>
+        </section>
+    </main>
 
-    <footer>
-        <p>© 2026 Piano Host - Used Piano Marketplace</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 PianoHost. Todos os direitos reservados.</p>
+            <p>A plataforma confiável para transações de pianos</p>
+        </div>
     </footer>
-
 </body>
 </html>
